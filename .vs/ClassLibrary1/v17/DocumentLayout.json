@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Myachkov31P\\0202\\\u0447\u0442\u043E\u0442\u043E \u0441 \u0433\u0438\u0442 \u0445\u0430\u0431\u043E\u043C\\ClassLibrary1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{172B2B3D-F4D5-46F1-B445-8756A74BF7EA}|Lib_Test\\Lib_Test.csproj|d:\\myachkov31p\\0202\\\u0447\u0442\u043E\u0442\u043E \u0441 \u0433\u0438\u0442 \u0445\u0430\u0431\u043E\u043C\\classlibrary1\\lib_test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{172B2B3D-F4D5-46F1-B445-8756A74BF7EA}|Lib_Test\\Lib_Test.csproj|solutionrelative:lib_test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF83C175-B7F5-4BBA-82FD-DA50E769A1B8}|ClassLibrary1\\ClassLibrary1.csproj|d:\\myachkov31p\\0202\\\u0447\u0442\u043E\u0442\u043E \u0441 \u0433\u0438\u0442 \u0445\u0430\u0431\u043E\u043C\\classlibrary1\\classlibrary1\\mylib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF83C175-B7F5-4BBA-82FD-DA50E769A1B8}|ClassLibrary1\\ClassLibrary1.csproj|solutionrelative:classlibrary1\\mylib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\Myachkov31P\\0202\\\u0447\u0442\u043E\u0442\u043E \u0441 \u0433\u0438\u0442 \u0445\u0430\u0431\u043E\u043C\\ClassLibrary1\\Lib_Test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Lib_Test\\UnitTest1.cs",
+              "ToolTip": "D:\\Myachkov31P\\0202\\\u0447\u0442\u043E\u0442\u043E \u0441 \u0433\u0438\u0442 \u0445\u0430\u0431\u043E\u043C\\ClassLibrary1\\Lib_Test\\UnitTest1.cs",
+              "RelativeToolTip": "Lib_Test\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:57:59.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyLib.cs",
+              "DocumentMoniker": "D:\\Myachkov31P\\0202\\\u0447\u0442\u043E\u0442\u043E \u0441 \u0433\u0438\u0442 \u0445\u0430\u0431\u043E\u043C\\ClassLibrary1\\ClassLibrary1\\MyLib.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\MyLib.cs",
+              "ToolTip": "D:\\Myachkov31P\\0202\\\u0447\u0442\u043E\u0442\u043E \u0441 \u0433\u0438\u0442 \u0445\u0430\u0431\u043E\u043C\\ClassLibrary1\\ClassLibrary1\\MyLib.cs",
+              "RelativeToolTip": "ClassLibrary1\\MyLib.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T13:55:17.169Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
