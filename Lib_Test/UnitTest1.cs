@@ -14,7 +14,7 @@ namespace Lib_Test
         {
             MyLib myLib = new MyLib();
             TimeSpan c = myLib.Date_difference(new DateTime(2025, 8, 1, 0, 0, 1), new DateTime(2009, 8, 1, 0, 0, 0));
-            TimeSpan c2 = new DateTime(2025, 8, 1, 0, 0, 1) - new DateTime(2002, 8, 1, 0, 0, 0);
+            TimeSpan c2 = new DateTime(2025, 8, 1, 0, 0, 1) - new DateTime(2009, 8, 1, 0, 0, 0);
 
             Assert.AreEqual(c, c2);
 
