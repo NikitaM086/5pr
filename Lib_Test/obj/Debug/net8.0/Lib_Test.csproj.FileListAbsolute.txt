@@ -100,3 +100,4 @@ D:\Myachkov31P\0202\чтото с гит хабом\ClassLibrary1\Lib_Test\obj\D
 D:\Myachkov31P\0202\чтото с гит хабом\ClassLibrary1\Lib_Test\obj\Debug\net8.0\Lib_Test.pdb
 D:\Myachkov31P\0202\чтото с гит хабом\ClassLibrary1\Lib_Test\obj\Debug\net8.0\Lib_Test.genruntimeconfig.cache
 D:\Myachkov31P\0202\чтото с гит хабом\ClassLibrary1\Lib_Test\obj\Debug\net8.0\ref\Lib_Test.dll
+D:\Myachkov31P\0202\чтото с гит хабом\ClassLibrary1\Lib_Test\obj\Debug\net8.0\Lib_Test.sourcelink.json

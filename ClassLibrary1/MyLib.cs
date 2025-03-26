@@ -3,13 +3,25 @@
     public class MyLib
     {
 
-        public int Summa(int x, int y)
+        public TimeSpan Date_difference(DateTime x, DateTime y)
         {
-            return x + y;
+
+            return x - y;
         }
 
-        public int Proizvedenie(int x, int y)
-            { return x * y; }
+        public double Difference_in_days(DateTime x, DateTime y)
+        {
+            TimeSpan timeSpan = x.Subtract(y);
+            double datka = timeSpan.TotalDays;
+            return datka; 
+        }
+
+        public double Difference_in_hours(DateTime x, DateTime y)
+        {
+            TimeSpan timeSpan = x.Subtract(y);
+            double datka = timeSpan.TotalHours;
+            return datka;
+        }
 
     }
 }

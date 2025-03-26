@@ -10,31 +10,38 @@ namespace Lib_Test
         }
 
         [Test]
-        public void Summa_Test()
+        public void Date_difference_Test()
         {
             MyLib myLib = new MyLib();
-
-            int x = 5; 
-            int y = 10;
-
-            int c = myLib.Summa(x, y);
-            int c2 = x + y;
+            TimeSpan c = myLib.Date_difference(new DateTime(2025, 8, 1, 0, 0, 1), new DateTime(2009, 8, 1, 0, 0, 0));
+            TimeSpan c2 = new DateTime(2025, 8, 1, 0, 0, 1) - new DateTime(2009, 8, 1, 0, 0, 0);
 
             Assert.AreEqual(c, c2);
+
         }
 
         [Test]
-        public void Proizvedenie_Test()
+        public void Difference_in_days_Test()
         {
             MyLib myLib = new MyLib();
 
-            int x = 5;
-            int y = 10;
+            double c = myLib.Difference_in_days(new DateTime(2025, 8, 1, 0, 0, 1), new DateTime(2009, 8, 1, 0, 0, 0));
+            TimeSpan c2 = new DateTime(2025, 8, 1, 0, 0, 1) - new DateTime(2009, 8, 1, 0, 0, 0);
+            double c3 = c2.TotalDays;
 
-            int c = myLib.Proizvedenie(x, y);
-            int c2 = x * y;
+            Assert.AreEqual(c, c3);
+        }
 
-            Assert.AreEqual(c, c2);
+        [Test]
+        public void Difference_in_hours_Test()
+        {
+            MyLib myLib = new MyLib();
+
+            double c = myLib.Difference_in_hours(new DateTime(2025, 8, 1, 0, 0, 1), new DateTime(2009, 8, 1, 0, 0, 0));
+            TimeSpan c2 = new DateTime(2025, 8, 1, 0, 0, 1) - new DateTime(2009, 8, 1, 0, 0, 0);
+            double c3 = c2.TotalHours;
+
+            Assert.AreEqual(c, c3);
         }
 
     }

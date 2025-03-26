@@ -9,3 +9,4 @@ D:\Myachkov31P\0202\чтото с гит хабом\ClassLibrary1\ClassLibrary1\
 D:\Myachkov31P\0202\чтото с гит хабом\ClassLibrary1\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
 D:\Myachkov31P\0202\чтото с гит хабом\ClassLibrary1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
 D:\Myachkov31P\0202\чтото с гит хабом\ClassLibrary1\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
+D:\Myachkov31P\0202\чтото с гит хабом\ClassLibrary1\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.sourcelink.json
