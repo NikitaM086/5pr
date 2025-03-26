@@ -5,22 +5,45 @@
 
         public TimeSpan Date_difference(DateTime x, DateTime y)
         {
-
-            return x - y;
+            try
+            {
+                return x - y;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("");
+                return new TimeSpan(0);
+            }
         }
 
         public double Difference_in_days(DateTime x, DateTime y)
         {
-            TimeSpan timeSpan = x.Subtract(y);
-            double datka = timeSpan.TotalDays;
-            return datka; 
+            try
+            {
+                TimeSpan timeSpan = x.Subtract(y);
+                double datka = timeSpan.TotalDays;
+                return datka;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("");
+                return 0.0;
+            }
         }
 
         public double Difference_in_hours(DateTime x, DateTime y)
         {
-            TimeSpan timeSpan = x.Subtract(y);
-            double datka = timeSpan.TotalHours;
-            return datka;
+            try
+            {
+                TimeSpan timeSpan = x.Subtract(y);
+                double datka = timeSpan.TotalHours;
+                return datka;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("");
+                return 0.0;
+            }
         }
 
     }
